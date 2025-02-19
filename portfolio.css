@@ -180,7 +180,9 @@ footer{
 .nav-item{
     padding-right: 50px;
 }
-
+.cards{
+    display: none;
+}
 /* MEDIA QUERIES */
 
 

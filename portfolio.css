@@ -12,7 +12,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     font-weight: bold;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: #ffff;
     text-align: center;
 }
@@ -23,8 +23,12 @@ body{
     letter-spacing: 1px;
     color: #fff;
 }
+.nav-link{
+    color: #fff;
+}
 .nav-link:hover{
-    text-decoration: underline 1px  #E50914;
+    color: #E50914;
+    transform: scale(1.2);
 }
 
 header{
@@ -227,12 +231,30 @@ footer{
 
         display: none;    
      }
+     .cards{
+        display: block;
+    }
  }
 
 @media (max-width: 768px) {  }
 
-@media (max-width: 992px) {  }
+@media (max-width: 992px) {
+    .cards{
+        display: block;
+    }
+  }
 
-@media (max-width: 1200px) {  }
+@media (max-width: 1200px) { 
+    .cards{
+        display: block;
+    }
+ }
 
-@media (max-width: 1400px) {  }
+@media (max-width: 1400px) { 
+    .container2{
+        display: none;
+    }
+    .cards{
+        display: block;
+    }
+ }

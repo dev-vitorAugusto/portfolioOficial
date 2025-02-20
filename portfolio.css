@@ -234,6 +234,7 @@ footer{
      .cards{
         display: block;
     }
+    
  }
 
 @media (max-width: 768px) { 
@@ -258,7 +259,7 @@ footer{
         letter-spacing: 1px;
         color: #fff;
         text-align: justify;
-        width: 70vw;
+        width: 80vw;
     }
  }
 

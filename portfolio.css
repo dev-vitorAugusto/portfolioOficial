@@ -236,7 +236,31 @@ footer{
     }
  }
 
-@media (max-width: 768px) {  }
+@media (max-width: 768px) { 
+    .navbar .delimitador{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin: auto;
+    }
+    .vitorLogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .corpo{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
+        font-weight: normal;
+        letter-spacing: 1px;
+        color: #fff;
+        text-align: justify;
+        width: 70vw;
+    }
+ }
 
 @media (max-width: 992px) {
     .cards{

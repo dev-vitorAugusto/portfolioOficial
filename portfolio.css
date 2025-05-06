@@ -188,7 +188,9 @@ footer{
 .cards{
     display: none;
 }
-
+.nav-pills{
+    --bs-nav-pills-link-active-bg: red; 
+}
 /* MEDIA QUERIES */
 
 

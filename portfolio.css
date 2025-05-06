@@ -236,6 +236,20 @@ footer{
      .cards{
         display: block;
     }
+    .box-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #fotoPerfil{
+        width: 300px;
+        height: 330px;
+       
+    }
+    .tech-list div img{
+        width: 35px;
+        height: 35px;
+    }
     
  }
 
@@ -262,6 +276,20 @@ footer{
         color: #fff;
         text-align: justify;
         width: 80vw;
+    }
+    .box-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #fotoPerfil{
+        width: 300px;
+        height: 300px;
+       
+    }
+    .tech-list div img{
+        width: 35px;
+        height: 35px;
     }
  }
 
